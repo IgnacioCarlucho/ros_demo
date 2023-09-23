@@ -1,0 +1,15 @@
+<launch>
+
+	<node	pkg="turtlesim"
+		   	type="turtlesim_node"
+		   	name="turtlesim_node"
+		   	output="screen"
+	/>
+
+	<node	pkg="turtle_controller"
+		   	type="simple_pub.py"
+		   	name="turtle_vel"
+		   	output="screen"
+	/>
+
+</launch>
