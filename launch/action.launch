@@ -1,0 +1,18 @@
+<launch>
+
+	<node	pkg="turtlesim"
+		   	type="turtlesim_node"
+		   	name="turtlesim_node"
+		   	output="screen"
+	/>
+
+
+	<node	pkg="turtle_actionlib"
+		   	type="shape_server"
+		   	name="turtle_action"
+		   	output="screen"
+	/>
+
+
+
+</launch>

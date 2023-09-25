@@ -12,4 +12,10 @@
 		   	output="screen"
 	/>
 
+	<node	pkg="turtle_controller"
+		   	type="kill.py"
+		   	name="thanos"
+		   	output="screen"
+	/>
+
 </launch>
